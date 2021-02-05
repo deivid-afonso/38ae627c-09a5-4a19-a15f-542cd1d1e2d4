@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webaula1:
+    image: ${DOCKER_REGISTRY-}webaula1
+    build:
+      context: .
+      dockerfile: Dockerfile
